@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/food"
+    android:padding="30dp"
+    tools:context=".Registration">
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:padding="20dp"
+       android:text="WELCOME"
+       android:textColor="@color/teal_200"
+       android:textSize="50dp"
+       android:id="@+id/Txtview"
+       />
+
+   <EditText
+       android:id="@+id/rgstr"
+       android:layout_width="300dp"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/Txtview"
+       android:background="@color/white"
+       android:backgroundTint="@color/teal_200"
+       android:gravity="center"
+       android:hint="username"
+       android:padding="10dp"
+       android:textColor="@color/black" />
+   <EditText
+       android:id="@+id/pwd1"
+       android:layout_width="300dp"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/rgstr"
+       android:layout_marginTop="25dp"
+       android:backgroundTint="@color/teal_200"
+       android:gravity="center"
+       android:background="@color/white"
+       android:textColor="@color/black"
+       android:hint="password"
+       android:padding="10dp"
+        />
+   <EditText
+       android:id="@+id/pwd"
+       android:layout_width="300dp"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/pwd1"
+       android:layout_marginTop="25dp"
+       android:backgroundTint="@color/teal_200"
+       android:gravity="center"
+       android:background="@color/white"
+       android:hint="repassword"
+       android:textColor="@color/black"
+       android:padding="10dp"
+       />
+   <Button
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/btn1"
+       android:text="SIGN UP"
+       android:textSize="40dp"
+       android:layout_below="@+id/pwd"
+      />
+   <Button
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/btn2"
+       android:layout_marginLeft="50dp"
+       android:text="ALREADY A CUSTOMER\n SIGN IN"
+       android:textSize="20dp"
+       android:layout_below="@+id/btn1"
+       android:layout_marginTop="250dp"
+       />
+</RelativeLayout>

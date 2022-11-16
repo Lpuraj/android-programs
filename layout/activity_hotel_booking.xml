@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/hotel"
+    tools:context=".HotelBooking">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:background="@color/purple_200"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="300dp"
+        android:textStyle="bold"
+        android:hint="YOUR NAME" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_200"
+        android:id="@+id/day"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="300dp"
+        android:hint="NUMBER OF DAYS" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_200"
+        android:id="@+id/room"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="300dp"
+        android:hint="ROOM COUNT" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/aadhar"
+        android:background="@color/purple_200"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="300dp"
+        android:hint="AADHAR NUMBER" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn"
+        android:layout_marginLeft="250dp"
+        android:text="SUBMIT"
+        />
+</LinearLayout>
